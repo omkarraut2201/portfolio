@@ -1,0 +1,499 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Capiclean</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+</head>
+
+<body>
+    <section class="container-fluid g-0">
+        <!-- header -->
+        <section class="container-fluid" id="header">
+            <section class="row">
+                <nav class="navbar bg-transparent ">
+                    <div class="container-fluid">
+                        <a class="navbar-brand" href="#">
+                            <img src="images/illustration/logo.png" alt="Bootstrap">
+                        </a>
+                        <div class="nav" id="nav-div">
+                            <a class="nav-link text-white fs-5" aria-current="page" href="#">Register</a>
+                            <a class="nav-link text-white fs-5" href="#">Login</a>
+                            <a class="search-icon  pt-2 ps-3">
+                                <img src="images/illustration/search-icon.png" class="img-fluid">
+                            </a>
+                        </div>
+                        <!-- toggler -->
+                        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
+                            data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="offcanvas offcanvas-end  text-bg-dark" tabindex="-1" id="offcanvasNavbar"
+                            aria-labelledby="offcanvasNavbarLabel">
+                            <div class="offcanvas-header">
+                                <button type="button" class="btn-close" data-bs-dismiss="offcanvas"
+                                    aria-label="Close"></button>
+                            </div>
+                            <div class="offcanvas-body">
+                                <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                                    <li class="nav-item">
+                                        <a class="nav-link" aria-current="page" href="#">Home</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#">services</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#">about us</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#">choose</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#">team</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#">Contact Us</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </nav>
+            </section>
+                <div class="container" id="banner px-5">
+                    <section class="row">
+                        <div class="col-12 col-md-4 px-md-5 pt-md-5" id="banner-info">
+                            <h1 class="banner_taital fs-1">Best YOUR</h1>
+                            <h1 class="banner_taital_1">house CLEAN</h1>
+                            <p class="banner_text">Adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+                                magna aliqua.
+                                Ut enim</p>
+                            <div class="contact_bt">
+                                <a href="contact.html">CONTACT US
+                                    <span class="contact_padding">
+                                        <img src="images/illustration/contact-icon.png">
+                                    </span>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md">
+
+                        </div>
+                        <div class="col-12 col-md-5">
+                            <img src="images/illustration/img-1.png" alt="image not found" class="img-fluid"
+                                id="banner-img-1">
+                        </div>
+                    </section>
+                </div>
+            
+        </section>
+        <!-- end of header -->
+
+        <!-- start service -->
+        <section class="container-fluid" id="services">
+            <section class="contaier">
+                <div class="row">
+                    <div class="col-12 text-center">
+                        <h1 class="services_taital"><span>Our</span> <img src="images/illustration/icon-1.png">
+                            <span>Services</span>
+                        </h1>
+                        <p class="services_text">Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                            et dolore magna
+                            aliqua</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active py-3">
+                                <div class="col-md-6 mx-auto">
+                                    <div class="box_section border shadow active bg-info text-center">
+                                        <div class="tiles_img">
+                                            <img src="images/illustration/tiles-img.png" alt="image not found"
+                                                class="img-fluid">
+                                        </div>
+                                        <h3 class="tile_text active">Tile & Grout</h3>
+                                        <p class="lorem_text active">Exercitation ullamco laboris nisi ut aliquip ex
+                                            eacommodo consequat.Duis aute irure dolor
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item py-3">
+                                <div class="col-md-6 mx-auto">
+                                    <div class="box_section border shadow text-center">
+                                        <div class="tiles_img_1">
+                                            <img src="images/illustration/carpet-img.png" alt="image not found"
+                                                class="img-fluid">
+                                        </div>
+                                        <h3 class="tile_text">Carpet Cleaning</h3>
+                                        <p class="lorem_text">Exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                                            consequat. Duis
+                                            aute irure dolor</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon bg-secondary rounded-5" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon bg-secondary rounded-5" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                </div>
+            </section>
+        </section>
+        <!-- end services -->
+
+        <!-- start about -->
+        <section class="container-fluid" id="about">
+            <section class="row" id="about-row">
+                <div class="col-12 col-md-6">
+                    <img src="images/illustration/img-2.png" alt="image not found" class="img-fluid">
+                </div>
+                <div class="col-12 col-md-6 px-5">
+                    <h1 class="services_taital">
+                        <span style="color: rgba(131, 193, 229, 0.74);">About</span>
+                        <img src="images/illustration/icon-1.png">
+                        <span style="color: rgb(31, 31, 31);">Cleaning</span>
+                    </h1>
+                    <p class="ipsum_text lh-md">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                        incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,Lorem ipsum dolor sit amet,
+                        consectetur
+                        adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+                        minim veniam,
+                    </p>
+                    <div class="contact_bt_1">
+                        <a href="#">READ MORE
+                            <span class="contact_padding">
+                                <img src="images/illustration/contact-icon.png" class="img-fluid bg-secondary">
+                            </span>
+                        </a>
+                    </div>
+                </div>
+            </section>
+        </section>
+        <!-- end about -->
+
+        <!-- why choose us -->
+        <section class="container-fluid" id="whyus">
+            <section class="container">
+                <div class="row pb-5">
+                    <div class="col-12 text-center">
+                        <h1 class="services_taital">
+                            <span style="color: rgba(131, 193, 229, 0.74);">Why</span>
+                            <img src="images/illustration/icon-1.png">
+                            <span style="color: rgb(31, 31, 31);">Choose us</span>
+                        </h1>
+                        <p class="services_text">
+                            Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut laboreet dolore magna aliqua
+                        </p>
+                    </div>
+                </div>
+                <section id="counter">
+                    <div class="row ">
+                        <div class="col-12 col-md-6 col-lg-3">
+                            <div class="choose_box text-center border border-primary">
+                                <h1 class="client_taital">12004+</h1>
+                                <h4 class="client_text fw-light">Our clients</h4>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-6 col-lg-3">
+                            <div class="choose_box text-center border border-primary">
+                                <h1 class="client_taital">10004+</h1>
+                                <h4 class="client_text fw-light">Happy clients</h4>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-6 col-lg-3">
+                            <div class="choose_box text-center border border-primary">
+                                <h1 class="client_taital">804+</h1>
+                                <h4 class="client_text fw-light">Supports</h4>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-6 col-lg-3">
+                            <div class="choose_box text-center border border-primary">
+                                <h1 class="client_taital">905+</h1>
+                                <h4 class="client_text fw-light">Awards</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="image_3">
+                        <img src="images/illustration/img-3.png" class="img-fluid" >
+                    </div>
+                    <div  class="text-center">
+                        <button type="button" class="btn btn-dark btn-lg rounded-pill">Get a Quote</button>
+                    </div>
+                </section>
+            </section>
+        </section>
+
+        <!-- end of ehy choose us -->
+
+        <!-- start team -->
+        <section class="container-fluid" id="team">
+            <section class="container">
+                <div class="row pb-5">
+                    <div class="col-12 text-center">
+                        <h1 class="services_taital">
+                            <span style="color: rgba(131, 193, 229, 0.74);">Our</span>
+                            <img src="images/illustration/icon-1.png">
+                            <span style="color: rgb(31, 31, 31);">Team</span>
+                        </h1>
+                        <p class="services_text">
+                            Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut laboreet dolore magna aliqua
+                        </p>
+                    </div>
+                </div>
+            </section>
+            <section class="container">
+                <!-- image 1 -->
+                <div class="team-image">
+                    <div class="row">
+                        <div class="col-12 col-md-5" id="team-img">
+                            <div class="image_4">
+                                <img src="images/illustration/img-4.png" class="img-fluid">
+                            </div>
+                            <h6 class="follow_text text-center py-3">Follow Us</h6>
+                            <div class="follow_social_icon">
+                                <ul class="list-unstyled d-flex justify-content-center m-0">
+                                    <li class="mx-2"><a href="#"><img src="images/illustration/fb-icon.png" alt="Facebook"></a></li>
+                                    <li class="mx-2"><a href="#"><img src="images/illustration/twitter-icon.png" alt="Twitter"></a></li>
+                                    <li class="mx-2"><a href="#"><img src="images/illustration/linkden-icon.png" alt="LinkedIn"></a></li>
+                                    <li class="mx-2"><a href="#"><img src="images/illustration/instagram-icon.png" alt="Instagram"></a></li>
+                                </ul>
+                            </div>                        
+                        </div>
+                        <div class=" col-12 col-md-7">
+                            <h2 class="consectetur_text">
+                                Consectetur
+                            </h2>
+                            <p class="dummy_text">
+                                It is a long established fact that a reader will be distracted by the readablecontent of a page when looking at its layout. The point of using Lorem
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <!-- image 2 -->
+                <div class="team-image">
+                    <div class="row">
+                        <div class=" col-12 col-md-7">
+                            <h2 class="consectetur_text">
+                                magna aliqua
+                            </h2>
+                            <p class="dummy_text">
+                                It is a long established fact that a reader will be distracted by the readablecontent of a page when looking at its layout. The point of using Lorem
+                            </p>
+                        </div>
+                        <div class="col-12 col-md-5" id="team-img">
+                            <div class="image_4">
+                                <img src="images/illustration/img-5.png" class="img-fluid">
+                            </div>
+                            <h6 class="follow_text text-center py-3">Follow Us</h6>
+                            <div class="follow_social_icon">
+                                <ul class="list-unstyled d-flex justify-content-center m-0">
+                                    <li class="mx-2"><a href="#"><img src="images/illustration/fb-icon.png" alt="Facebook"></a></li>
+                                    <li class="mx-2"><a href="#"><img src="images/illustration/twitter-icon.png" alt="Twitter"></a></li>
+                                    <li class="mx-2"><a href="#"><img src="images/illustration/linkden-icon.png" alt="LinkedIn"></a></li>
+                                    <li class="mx-2"><a href="#"><img src="images/illustration/instagram-icon.png" alt="Instagram"></a></li>
+                                </ul>
+                            </div>                        
+                        </div>
+                    </div>
+                </div>
+                <!-- image3 -->
+                <div class="team-image">
+                    <div class="row">
+                        <div class="col-12 col-md-5" id="team-img">
+                            <div class="image_4">
+                                <img src="images/illustration/img-6.png" class="img-fluid">
+                            </div>
+                            <h6 class="follow_text text-center py-3">Follow Us</h6>
+                            <div class="follow_social_icon">
+                                <ul class="list-unstyled d-flex justify-content-center m-0">
+                                    <li class="mx-2"><a href="#"><img src="images/illustration/fb-icon.png" alt="Facebook"></a></li>
+                                    <li class="mx-2"><a href="#"><img src="images/illustration/twitter-icon.png" alt="Twitter"></a></li>
+                                    <li class="mx-2"><a href="#"><img src="images/illustration/linkden-icon.png" alt="LinkedIn"></a></li>
+                                    <li class="mx-2"><a href="#"><img src="images/illustration/instagram-icon.png" alt="Instagram"></a></li>
+                                </ul>
+                            </div>                        
+                        </div>
+                        <div class=" col-12 col-md-7">
+                            <h2 class="consectetur_text">
+                                Aonsectetur
+                            </h2>
+                            <p class="dummy_text">
+                                It is a long established fact that a reader will be distracted by the readablecontent of a page when looking at its layout. The point of using Lorem
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <!-- image 4 -->
+                <div class="team-image">
+                    <div class="row">
+                        <div class=" col-12 col-md-7">
+                            <h2 class="consectetur_text">
+                                Nonsectetur
+                            </h2>
+                            <p class="dummy_text">
+                                It is a long established fact that a reader will be distracted by the readablecontent of a page when looking at its layout. The point of using Lorem
+                            </p>
+                        </div>
+                        
+                        <div class="col-12 col-md-5" id="team-img">
+                            <div class="image_4">
+                                <img src="images/illustration/img-7.png" class="img-fluid">
+                            </div>
+                            <h6 class="follow_text text-center py-3">Follow Us</h6>
+                            <div class="follow_social_icon">
+                                <ul class="list-unstyled d-flex justify-content-center m-0">
+                                    <li class="mx-2"><a href="#"><img src="images/illustration/fb-icon.png" alt="Facebook"></a></li>
+                                    <li class="mx-2"><a href="#"><img src="images/illustration/twitter-icon.png" alt="Twitter"></a></li>
+                                    <li class="mx-2"><a href="#"><img src="images/illustration/linkden-icon.png" alt="LinkedIn"></a></li>
+                                    <li class="mx-2"><a href="#"><img src="images/illustration/instagram-icon.png" alt="Instagram"></a></li>
+                                </ul>
+                            </div>                        
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </section>
+        <!-- end team section -->
+
+        <!-- start newsettler -->
+        <section class="container-fluid" id="newsettler">
+            <section class="conatiner">
+                <div class="row">
+                    <div class="col-md-6 px-5">
+                      <h1 class="newsletter_text">Newsletter</h1>
+                      <p class="tempor_text">Tempor incididunt ut labore et dolore magna aliqua</p>
+                    </div>
+                    <div class="col-md-6 pt-4">
+                        <div class="mail_bt_main d-flex">
+                            <input type="text" class="mail_text form-control me-2 w-75" placeholder="ENTER YOUR MAIL" name="Enter Your Mail">
+                            <div class="subscribe_bt">
+                                <a href="#" class="btn btn-primary">SUBSCRIBE</a>
+                            </div>
+                        </div>
+                    </div>
+                  </div>
+            </section>
+        </section>
+        <!-- end newsettler -->
+
+        <!-- start footer -->
+        <section class="container-fluid" id="footer">
+            <section class="container">
+                <div class="footer_main pt-5">
+                    <div class="row">
+                        <div class="footer_left col-12 col-md-3 pt-2">
+                            <h1 class="contact_taital">
+                                <span>Contact </span>
+                                <img src="images/illustration/icon-2.png">
+                                <span>Us</span>
+                            </h1>
+                        </div>
+                        <div class="footer_left col-12 col-md-3 pt-2">
+                            <div class="location_text">
+                                <a href="#">
+                                    <img src="images/illustration/map-icon.png">
+                                    <span class="padding_left_15">Locations</span>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="footer_left col-12 col-md-3 pt-2">
+                            <div class="location_text">
+                                <a href="#">
+                                    <img src="images/illustration/call-icon.png">
+                                    <span class="padding_left_15">
+                                        +71 9876543210
+                                    </span>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="footer_left col-12 col-md-3 pt-2">
+                            <div class="location_text">
+                                <a href="#">
+                                    <img src="images/illustration/map-icon.png">
+                                    <span class="padding_left_15">
+                                        demo@gmail.com
+                                    </span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="footer-form">
+                    <div class="row">
+                        <div class="col-12 col-md-6">
+                            <form id="forms">
+                                <div class="pb-3">
+                                    <input type="text" class="form-control form-control-sm bg-transparent border-0 border-bottom" id="name" placeholder="Name" name="Name" required>
+                                </div>
+                                <div class="pb-3">
+                                    <input type="email" class="form-control form-control-sm bg-transparent border-0 border-bottom" id="email" placeholder="Email" name="Email" required>
+                                </div>
+                                <div class="pb-3">
+                                    <input type="tel" class="form-control form-control-sm bg-transparent border-0 border-bottom" id="phone" placeholder="Phone Number" name="Phone Number" required>
+                                </div>
+                                <div class="pb-3">
+                                    <textarea class="form-control form-control-sm bg-transparent border-0 border-bottom" id="message" placeholder="Message" rows="4" name="Message" required></textarea>
+                                </div>
+                                <div class="pb-3">
+                                    <button type="submit" class="btn btn-primary btn-lg rounded-pill">Send</button>
+                                </div>
+                            </form>
+                            
+                        </div>
+                        <div class="col-12 col-md-6">
+                                <div class="map_main">
+                                  <div class="map-responsive">
+                                    <iframe src="https://www.google.com/maps/embed/v1/place?key=AIzaSyA0s1a7phLN0iaD6-UE7m4qP-z21pH0eSc&amp;q=Eiffel+Tower+Paris+France" width="600" height="280" frameborder="0" style="border:0; width: 100%;" allowfullscreen="">
+                                    </iframe>
+                                  </div>
+                                </div>
+                                <div class="social_icon pt-3">
+                                  <ul class="list-unstyled d-flex justify-content-center m-0 gap-4">
+                                    <li><a href="#"><img src="images/illustration/fb-icon1.png"></a></li>
+                                    <li><a href="#"><img src="images/illustration/twitter-icon1.png"></a></li>
+                                    <li><a href="#"><img src="images/illustration/linkden-icon1.png"></a></li>
+                                    <li><a href="#"><img src="images/illustration/instagram-icon1.png"></a></li>
+                                  </ul>
+                                </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </section>
+        <!-- end footer -->
+         <!-- start copyright -->
+            <section class="conatiner-fluid" id="copy-right">
+                <section class="container">
+                    <div class="row">
+                        <div class="col-12">
+                            <p class=" text-center fs-4">Copyright 20204 All Right Reserved By omkar raut</p>
+                        </div>
+                    </div>
+                </section>
+            </section>
+         <!-- end copyright -->
+
+    </section>
+    <!-- end of main container -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

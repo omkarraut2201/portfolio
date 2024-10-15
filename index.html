@@ -1,0 +1,540 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Portfolio OmkarR</title>
+    <!-- css link -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- favicon link -->
+    <link rel="icon" type="png" sizes="16x16" href="images/illustration/favicon-32x32.png">
+    <!-- bootstrap link -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- google font links -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap" rel="stylesheet">
+   <!-- AOS CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- start of website -->
+    <section class="container-fluid" style="overflow: hidden;">
+        <!-- Start of navbar -->
+        <section class="container-fluid" id="header">
+            <section class="row ">
+                <div class="col-12">
+                    <!-- my navbar -->
+                    <nav class="navbar navbar-expand-md bg-transparent px-2 py-md-2 py-lg-3" onscroll="navbarscroll()"
+                        id="navbar-main">
+                        <div class="container-fluid flex-row">
+                            <a class="navbar-brand" href="#">
+                                <span>
+                                    <<span><span>Omkar Raut/>
+                                        </span></a>
+                            <button class="navbar-toggler p-0 " type="button" data-bs-toggle="offcanvas"
+                                data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar"
+                                aria-label="Toggle navigation">
+                                <span class="navbar-toggler-icon"></span>
+                            </button>
+                            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
+                                aria-labelledby="offcanvasNavbarLabel">
+                                <div class="offcanvas-header">
+                                    <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Omkar Raut</h5>
+                                    <button type="button" class="btn-close bg-white" data-bs-dismiss="offcanvas"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="offcanvas-body ">
+                                    <ul class="navbar-nav mx-auto">
+                                        <li class="nav-item">
+                                            <a class="nav-link text-decoration-none " href="#herosection">Home</a>
+                                        </li>
+                                        <li class="nav-item ">
+                                            <a class="nav-link text-decoration-none " href="#about">About</a>
+                                        </li>
+                                        <li class="nav-item ">
+                                            <a class="nav-link text-decoration-none " href="#education">Eduation</a>
+                                        </li>
+                                        <li class="nav-item ">
+                                            <a class="nav-link text-decoration-none" href="#skills">Skills</a>
+                                        </li>
+                                        <li class="nav-item ">
+                                            <a class="nav-link text-decoration-none" href="#projects">Projects</a>
+                                        </li>
+                                    </ul>
+                                    <div class="contact-btn">
+                                        <a href="#contact" class="btn-square text-decoration-none  ">Contact Me</a>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                        <!-- <div class="pe-md-3">
+                       
+                    </div> -->
+
+                        <!-- <div class="d-none d-md-block mx-auto pt-1 d-md-flex " id="social-link">
+                        <a href="" id="mode1" class="px-md-3">
+                            mode change button 
+                            <i class="fa-regular fa-moon"></i>
+                            <a href=""><i class="fa-regular fa-sun"></i></a>
+                        </a>
+                        <a href="" class="px-md-3">
+                            <i class="fa-brands fa-linkedin-in"></i>
+                        </a>
+                        <a href="" class="px-md-3">
+                            <i class="fa-brands fa-github"></i>
+                        </a> 
+                         <a href="" class="px-md-3">
+                            <i class="fa-solid fa-arrow-down"></i>
+                        </a>
+                    </div> -->
+                    </nav>
+                </div>
+            </section>
+        </section>
+        <!-- End of navbar -->
+
+
+        <!-- start of herosection -->
+        <section class="container-fluid" style="overflow: hidden;" id="herosection">
+            <section class="container">
+                <section class="row">
+                    <!-- image div -->
+                    <div class="col-12 col-md-4 col-lg-4 order-md-2 d-flex justify-content-center"  data-aos="fade-left">
+                        <div class="header-img">
+                            <!-- <div class="img-frame">
+                            <img src=".//images/background/blob (2).png" alt="img-flui">
+                            </div> -->
+                            <img src="images/illustration/omkar_photo3.png" alt="" class="img-fluid animated-border">
+                        </div>
+                    </div>
+                    <!-- hero info  -->
+                    <div class="col-12 col-md-8 col-lg-8 order-md-1" >
+                        <div class="header-info " data-aos="fade-right">
+                            <h3>Hi, I'm</h3>
+                            <h1>Omkar Raut</h1>
+                            <h5>And I'm a <br><span id="typedtext"></span></h5>
+                            <p class="">I am a graduate engineer in Computer Science, and I am a passionate Java Full
+                                Stack
+                                Developer with a strong foundation in web development.</p>
+                            <div class="p-0" id="hero-info-btn">
+                                <div class="social-links p-0" id="hero-btn">
+                                    <a href="https://www.linkedin.com/in/omkar-raut-/" target="_blank"
+                                        title="my linkedin profile" class="links">
+                                        <i class="fa-brands fa-linkedin-in"></i>
+                                    </a>
+                                    <a href="https://github.com/Omkarraut2208" target="_blank" title="my github profile" class="links">
+                                        <i class="fa-brands fa-github"></i>
+                                    </a>
+                                    <!-- <a href="https://github.com/Omkarraut2208" target="_blank" title="my github profile"class="links">
+                                        <i class="fa-solid fa-arrow-down"></i></a> -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </section>
+        </section>
+        <!-- End of herosection -->
+
+        <!-- about section start -->
+        <section class="container-fluid" id="about">
+            <section class="container">
+                <section class="row">
+                    <section id="about" class="container py-5" data-aos="fade-up"
+                    data-aos-anchor-placement="top-bottom">
+                        <div class="text-center pb-4">
+                            <h2>About Me</h2>
+                        </div>
+                        <div class="row align-items-center">
+                            <!-- <div class="col-lg-6 col-md-6 text-center" id="about-img">
+                            <div id="background-about-img"></div>
+                            <img src="images/illustration/omkar about-img.jpg" alt="Omkar Raut"
+                                class="img-fluid rounded slide-in-left shadow">
+                        </div> -->
+                            <div class="col-12 col-md-8 col-lg-8 mx-auto  text-lg-start" id="about-info">
+                                <p>I am a dedicated Full Stack Web Developer with a solid foundation in both frontend
+                                    and
+                                    backend technologies. As a fresher, I have gained valuable experience through
+                                    projects,
+                                    building responsive and user-centric web applications.</p>
+                                <p>
+                                    My skill set includes HTML, CSS, Bootstrap, JavaScript, and ReactJS on the frontend,
+                                    along with Java and SQL for backend development and database management. I focus on
+                                    writing clean, efficient code and creating seamless user experiences. I am excited
+                                    to
+                                    continue learning and growing in a dynamic role, eager to contribute to innovative
+                                    projects that challenge and enhance my abilities.
+                                </p>
+                                <div class="resume-btn pt-1">
+                                    <a href="./omkar_raut_resume.pdf" target="_blank"
+                                        class="btn-square text-decoration-none  ">Resume
+                                        <i class="fa-solid fa-arrow-down ps-1"></i>
+                                    </a>
+                                </div>
+                            </div>
+
+                        </div>
+                    </section>
+
+                </section>
+            </section>
+        </section>
+        <!-- end  of about section -->
+
+        <!-- start of education section -->
+        <section class="container-fluid" id="education">
+            <section class="container">
+                <section class="row">
+                    <div class=" col-12 text-center pb-4" id="education">
+                        <h2>Education</h2>
+                    </div>
+                    <div class="col-12 col-lg-9  justify-content-center time-line">
+                        <div class="timeline-container" data-aos="fade-down" >
+                            <div class="text-content" data-aos="fade-right">
+                                <h3>Java Fullstack Development</h3>
+                                <small>2024</small>
+                                <p>Envision Computer Training Institute</p>
+                            </div>
+                        </div>
+                        <div class="timeline-container" data-aos="fade-down" >
+                            <div class="text-content" data-aos="fade-left">
+                                <h3>B.Tech in Computer Science</h3>
+                                <small>2024</small>
+                                <p>TKIET Kolhapur</p>
+                            </div>
+                        </div>
+                        <div class="timeline-container" data-aos="fade-down" >
+                            <div class="text-content"  data-aos="fade-right">
+                                <h3>Diploma in Mechanical Engineering</h3>
+                                <small>2021</small>
+                                <p>ICRE Kolhapur</p>
+                            </div>
+                        </div>
+                        <div class="timeline-container" data-aos="fade-down" >
+                            <div class="text-content" data-aos="fade-left">
+                                <h3>12th,HSC</h3>
+                                <small>2019</small>
+                                <p>The New Collage Kolhapur</p>
+                            </div>
+                        </div>
+                        <div class="timeline-container" data-aos="fade-down" >
+                            <div class="text-content" data-aos="fade-right">
+                                <h3>10th,SSC</h3>
+                                <small>2017</small>
+                                <p>M.V.Talashi</p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </section>
+        </section>
+
+        <!-- end of eduaction section -->
+
+        <!-- Start of skills section -->
+        <section class="container-fluid">
+            <section class="container">
+                <section class="row"  data-aos="fade-up">
+                    <div class="col-12 text-center" id="skills">
+                        <h2>Skills</h2>
+                    </div>
+                    <div class="domain mt-2 pb-2">
+                        <div class="domain-name py-3">
+                            <h2>Frontend</h2>
+                        </div>
+                        <div class="skill-contanier">
+                            <div class="skill" data-aos="zoom-in">
+                                <div class="skill-logo">
+                                    <img src="images/illustration/skills/frontend/html5.png" alt="image not found"
+                                        class="img-fluid">
+                                </div>
+                                <div class="skill-info">
+                                    <h1 class="">
+                                        Html
+                                    </h1>
+                                </div>
+                            </div>
+                            <div class="skill" data-aos="zoom-in">
+                                <div class="skill-logo">
+                                    <img src="images/illustration/skills/frontend/css.png" alt="image not found"
+                                        class="img-fluid">
+                                </div>
+                                <div class="skill-info">
+                                    <h1>
+                                        CSS
+                                    </h1>
+                                </div>
+                            </div>
+                            <div class="skill" data-aos="zoom-in">
+                                <div class="skill-logo">
+                                    <img src="images/illustration/skills/frontend/bootstrap.png"
+                                        alt="image not found" class="img-fluid">
+                                </div>
+                                <div class="skill-info">
+                                    <h1>
+                                        Bootstrap
+                                    </h1>
+                                    <p>
+                                        CSS Framework
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="skill" data-aos="zoom-in">
+                                <div class="skill-logo">
+                                    <img src="images/illustration/skills/frontend/js.png" alt="image not found"
+                                        class="img-fluid">
+                                </div>
+                                <div class="skill-info">
+                                    <h1>
+                                        JavaScript
+                                    </h1>
+                                    <p>
+                                        Development
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="skill" data-aos="zoom-in">
+                                <div class="skill-logo">
+                                    <img src="images/illustration/skills/frontend/reactjs.png" alt="image not found"
+                                        class="img-fluid">
+                                </div>
+                                <div class="skill-info">
+                                    <h1>
+                                        ReactJs
+                                    </h1>
+                                    <p>
+                                        Framework
+                                    </p>
+                                </div>
+                            </div>
+                           
+                        </div>
+                    </div>
+                    <div class="domain mt-2 pb-2">
+                        <div class="domain-name py-3">
+                            <h2>Backend</h2>
+                        </div>
+                        <div class="skill-contanier">
+                            <div class="skill" data-aos="zoom-in">
+                                <div class="skill-logo">
+                                    <img src="images/illustration/skills/backend/java.png" alt="image not found" class="img-fluid">
+                                </div>
+                                <div class="skill-info">
+                                    <h1 class="">
+                                        Java
+                                    </h1>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="domain mt-2 pb-2"></div>
+                    <div class="domain-name py-3">
+                        <h2>Database</h2>
+                    </div>
+                    <div class="skill-contanier">
+                        <div class="skill" data-aos="zoom-in">
+                            <div class="skill-logo">
+                                <img src="images/illustration/skills/database/mysql.png" alt="image not found"
+                                    class="img-fluid">
+                            </div>
+                            <div class="skill-info">
+                                <h1 class="">
+                                    MySql
+                                </h1>
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+                </section>
+            </section>
+        </section>
+        <!-- End of Skills Section -->
+
+        <!-- Start of Project Section -->
+        <section class="container-fluid">
+            <section class="container">
+                <div class="col-12 py-4 text-center" id="projects">
+                    <h2>Projects</h2>
+                </div>
+                <div class="row project-container">
+                    <!-- <div class="col-12 col-md-5 col-lg-3 project-card p-0">
+                    <div class="project-img p-0">
+                        <img src="images/illustration/projects/carvilla1.png" alt="image not found" class="img-fluid">
+                    </div>
+                </div> -->
+                    <div class="col-12 col-md-5 col-lg-3 project-card p-0">
+                        <figure class="snip1527" data-aos="flip-right">
+                            <div class="image project-img p-0">
+                                <img src="images/illustration/projects/restaurant1.png" alt="image not found"
+                                    class="img-fluid">
+                            </div>
+                            <figcaption>
+                                <div class="view-btn">
+                                    <a href="./projects/restaurant/index.html" target="_blank" class="btn-demo text-decoration-none">View Demo</a>
+                                </div>
+                                <p>HTML, CSS, Bootstrap.</p>
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <div class="col-12 col-md-5 col-lg-3 project-card p-0">
+                        <figure class="snip1527" data-aos="flip-right">
+                            <div class="project-img p-0">
+                                <img src="images/illustration/projects/capiclean1.png" alt="Capiclean Project"
+                                    class="img-fluid">
+                            </div>
+                            <figcaption>
+                                <div class="view-btn">
+                                    <a href="./projects/capiclean/index.html" target="_blank" class="btn-demo text-decoration-none">View Demo</a>
+                                </div>
+                                <p>HTML, CSS, Bootstrap.</p>
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <div class="col-12 col-md-5 col-lg-3 project-card p-0">
+                        <figure class="snip1527" data-aos="flip-right">
+                            <div class="project-img p-0">
+                                <img src="images/illustration/projects/construction1.png" alt="Construction Project"
+                                    class="img-fluid">
+                            </div>
+                            <figcaption>
+                                <div class="view-btn">
+                                    <a href="./projects/construction/index.html" target="_blank" class="btn-demo text-decoration-none">View Demo</a>
+                                </div>
+                                <p>HTML, CSS, Bootstrap.</p>
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <div class="col-12 col-md-5 col-lg-3 project-card p-0">
+                        <figure class="snip1527" data-aos="flip-right">
+                            <div class="project-img p-0">
+                                <img src="images/illustration/projects/stocker1.png"  alt="Stocker Project"
+                                    class="img-fluid">
+                            </div>
+                            <figcaption>
+                                <div class="view-btn">
+                                    <a href="./projects/stocker/index.html" target="_blank" class="btn-demo text-decoration-none">View Demo</a>
+                                </div>
+                                <p>HTML, CSS, Bootstrap.</p>
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <div class="col-12 col-md-5 col-lg-3 project-card p-0">
+                        <figure class="snip1527" data-aos="flip-right">
+                            <div class="project-img p-0">
+                                <img src="images/illustration/projects/hospital.png" alt="Hospital Project"
+                                    class="img-fluid">
+                            </div>
+                            <figcaption>
+                                <div class="view-btn">
+                                    <a href="https://hospital-website-reactjs.netlify.app/"      class="btn-demo text-decoration-none" target="_blank">View Demo</a>
+                                </div>
+                                <p>Reactjs,JavaScript,HTML,CSS.</p>
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <div class="col-12 col-md-5 col-lg-3 project-card p-0">
+                        <figure class="snip1527" data-aos="flip-right">
+                            <div class="project-img p-0">
+                                <img src="images/illustration/projects/bookstor1.png" alt="Bookstore Project"
+                                    class="img-fluid">
+                            </div>
+                            <figcaption>
+                                <div class="view-btn">
+                                    <a href="https://bookbazardemo.netlify.app/" target="_blank" class="btn-demo text-decoration-none">View Demo</a>
+                                </div>
+                                <p>Reactjs,JavaScript,JQuery.</p>
+                            </figcaption>
+                        </figure>
+                    </div>
+
+                </div>
+            </section>
+        </section>
+        <!-- End of project Section -->
+
+        <!-- Start of Contact Section -->
+        <section class="container-fluid mt-5">
+            <section class="container">
+                <div class="col-12 py-4 text-center" id="contact">
+                    <h2>Contact</h2>
+                    <p></p>
+                </div>
+                <div class="row" id="contact-container">
+                    <div class="col-12 col-md-4">
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <!-- <img src="./images/illustration/contact png/google-maps.gif" alt="" class="img-fluid"> -->
+                                <i class="fas fa-map-marker-alt fa-2x"></i>
+                            </div>
+                            <div class="contact-info ps-4">
+                                <h4>Address:</h4>
+                                <p>Pune</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-4">
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <!-- <img src="./images/illustration/contact png/email.gif" alt="" class="img-fluid"> -->
+                                <i class="fas fa-envelope fa-2x"></i>
+                            </div>
+                            <div class="contact-info ps-4">
+                                <h4>Email:</h4>
+                                <p>rautonkar228@gmail.com</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-4">
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <!-- <img src="./images/illustration/contact png/contact.gif" alt="" class="img-fluid"> -->
+                                <i class="fa fa-phone-alt fa-2x"></i>
+                            </div>
+                            <div class="contact-info ps-4">
+                                <h4>Contact No:</h4>
+                                <p>+91-8806119191</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </section>
+        <!-- End of contact Section -->
+
+        <!-- Start OF COPYRIGHT -->
+        <section class="container-fluid" id="footer">
+            <section class="container">
+                <div class="row line mx-auto">
+
+                </div>
+                <div class="copyright text-center py-4">
+                    <h6>All Rights-Reserved © 2024, by : Omkar Raut</h6>
+                </div>
+            </section>
+        </section>
+        <!-- END OF COPYRIGHT -->
+
+    </section>
+    <!-- End of website -->
+
+    <!-- AOS JS -->
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+    <!-- JQuery -->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <!-- js file -->
+    <script src="js/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous">
+    </script>
+</body>
+
+</html>

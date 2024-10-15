@@ -1,0 +1,691 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Stocker</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <section class="container-fluid g-0">
+
+        <!-- start of  navbar and header-->
+        <section class="container-fluid" id="header">
+            <section class="row">
+                <div class="col-12 p-0">
+                    <nav class="navbar navbar-expand-lg bg-dark fixed-lg-top ">
+                        <div class="container-fluid">
+                            <a class="navbar-brand fs-2 fw-bold text-light text-primary" href="#">
+                                <i class="fas fa-search-dollar me-3"></i>
+                                Stocker
+                            </a>
+                            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                                aria-expanded="false" aria-label="Toggle navigation">
+                                <span class="navbar-toggler-icon"></span>
+                            </button>
+                            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                                <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+                                    <li class="nav-item">
+                                        <a class="nav-link " aria-current="page" href="#">Home</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="about.html">about</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#">services</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#">projects</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#">Blog</a>
+                                    <bdo dir="ltr"></bdo></li>
+                                    <li class="nav-item dropdown">
+                                        <a class="nav-link dropdown-toggle" href="#" role="button"
+                                            data-bs-toggle="dropdown" aria-expanded="false">
+                                            Pages
+                                        </a>
+                                        <ul class="dropdown-menu">
+                                            <li><a class="dropdown-item" href="#">Action</a></li>
+                                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                                            <li>
+                                                <hr class="dropdown-divider">
+                                            </li>
+                                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="contact.html">contact us</a>
+                                    </li>
+                                </ul>
+                                <div class="pe-4">
+                                    <button class="btn custom-btn" type="button">Get started</button>
+                                </div>
+                            </div>
+                        </div>
+                    </nav>
+                </div>
+            </section>
+        </section>
+        <!-- end of navbar -->
+        <section class="container-fluid position-relative " id="hero">
+            <!-- Background overlay -->
+            <div class="hero-overlay"></div>
+            <section class="row">
+                <div class="col-12 p-0">
+                    <!-- carousal -->
+                    <div id="carouselExampleDark" class="carousel carousel-dark slide">
+                        <div class="carousel-indicators">
+                            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0"
+                                class="active" aria-current="true" aria-label="Slide 1" class="">
+                            </button>
+                            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1"
+                                aria-label="Slide 2" class="">
+                            </button>
+                        </div>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active" data-bs-interval="1000">
+                                <img src="images/background/carousel-1.jpg" class="d-block w-100 " alt="...">
+                                <div class="carousel-caption pb-5">
+                                    <h4 class="text-primary">Welcome To Stocker</h4>
+                                    <h1 class="text-light display-3 text-uppercase fw-bold px-3 px-md-0">
+                                        Invest your money with higher return
+                                    </h1>>
+                                    <p class="text-white pb-3 fw-semibold">Lorem Ipsum is simply dummy text of the
+                                        printing and
+                                        typesetting industry. Lorem Ipsum has been the industry's standard dummy...
+                                    </p>
+                                    <div class="mb-2">
+                                        <a class="btn btn-light rounded-pill " href="#">
+                                            <i class="fas fa-play-circle "></i>
+                                            Watch Video
+                                        </a>
+                                        <a class="btn custom-btn rounded-pill " href="#">
+                                            Learn More
+                                        </a>
+                                    </div>
+                                    <div class="d-md-flex justify-content-center gap-2">
+                                        <h2 class="text-white">Follow Us:</h2>
+                                        <div class="d-flex gap-2 justify-content-center ">
+                                            <a class="btn btn-md-square btn-light rounded-circle my-auto" href="">
+                                                <i class="fab fa-facebook-f"></i>
+                                            </a>
+                                            <a class="btn btn-md-square btn-light rounded-circle my-auto" href="">
+                                                <i class="fab fa-twitter"></i>
+                                            </a>
+                                            <a class="btn btn-md-square btn-light rounded-circle my-auto" href="">
+                                                <i class="fab fa-instagram"></i>
+                                            </a>
+                                            <a class="btn btn-md-square btn-light rounded-circle my-auto" href="">
+                                                <i class="fab fa-linkedin-in"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item" data-bs-interval="2000">
+                                <img src="images/background/carousel-2.jpg" class="d-block w-100 set-img-text"
+                                    alt="...">
+                                <div class="carousel-caption">
+                                    <h4 class="text-primary">Welcome To Stocker</h4>
+                                    <h1 class="display-4 ">
+                                        Invest your money with higher return
+                                    </h1>>
+                                    <p class="">Lorem Ipsum is simply dummy text of the printing and
+                                        typesetting industry. Lorem Ipsum has been the industry's standard dummy...
+                                    </p>
+                                    <div class="">
+                                        <a class="btn btn-light rounded-pill " href="#">
+                                            <i class="fas fa-play-circle "></i>
+                                            Watch Video
+                                        </a>
+                                        <a class="btn custom-btn rounded-pill" href="#">
+                                            Learn More
+                                        </a>
+                                    </div>
+                                    <div class="d-flex align-items-center justify-content-center">
+                                        <h2 class="text-white me-2">Follow Us:</h2>
+                                        <div class="d-flex justify-content-end">
+                                            <a class="btn btn-md-square btn-light rounded-circle" href="">
+                                                <i class="fab fa-facebook-f"></i>
+                                            </a>
+                                            <a class="btn btn-md-square btn-light rounded-circle" href="">
+                                                <i class="fab fa-twitter"></i>
+                                            </a>
+                                            <a class="btn btn-md-square btn-light rounded-circle" href="">
+                                                <i class="fab fa-instagram"></i>
+                                            </a>
+                                            <a class="btn btn-md-square btn-light rounded-circle" href="">
+                                                <i class="fab fa-linkedin-in"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                    <!-- end of carousal -->
+                </div>
+            </section>
+        </section>
+        <!-- end of navbar and header -->
+
+        <!-- start of about -->
+        <section class="container-fluid" id="about">
+            <section class="container">
+                <section class="row">
+                    <div class="col-12 col-md-12 col-lg-7 py-5">
+                        <h4 class="text-primary">About Us</h4>
+                        <h1 class="display-5 mb-4 fw-bolder">Meet our company unless miss the opportunity</h1>
+                        <p class="mb-4 opacity-25">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cum velit
+                            temporibus repudiandae ipsa, eaque perspiciatis cumque incidunt tenetur sequi reiciendis.
+                        </p>
+                        <div class="row d-flex py-3">
+                            <div class="col-12 col-md-6 py-3">
+                                <div class="d-flex">
+                                    <div>
+                                        <i class="fas fa-lightbulb fa-3x text-primary"></i>
+                                    </div>
+                                    <div class="ps-3">
+                                        <h4>Business Consuluting</h4>
+                                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6 py-3">
+                                <div class="d-flex">
+                                    <div>
+                                        <i class="fas fa-lightbulb fa-3x text-primary"></i>
+                                    </div>
+                                    <div class="ps-3">
+                                        <h4>Year Of Expertise</h4>
+                                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6 py-3">
+                                <!-- <button class="btn custom-btn" type="button">Discover Now</button> -->
+                                <a href="#" class="btn custom-btn rounded-pill py-3 px-5 ">
+                                    Discover Now
+                                </a>
+                            </div>
+                            <div class="col-12 col-md-6 py-3">
+                                <div class="d-flex">
+                                    <i class="fas fa-phone-alt fa-2x text-primary me-4"></i>
+                                    <div>
+                                        <h4>Call Us</h4>
+                                        <p class="mb-0 fs-5" style="letter-spacing: 1px;">+91234567890</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-12 col-lg-5">
+                        <img src="images/illustraaion/about-2.png" alt="image not found" class="img-fluid custom-bg">
+                        <img src="images/illustraaion/about-5.jpg" alt="image not found" class="img-fluid">
+                    </div>
+                </section>
+            </section>
+        </section>
+        <!-- end of about -->
+
+        <!-- start of offer -->
+        <section class="container-fluid" id="services">
+            <section class="container">
+                <div class="text-center mx-auto pb-5 wow fadeInUp" data-wow-delay="0.2s">
+                    <h4 class="text-primary fs-1">Our Services</h4>
+                    <h1 class="display-5 mb-4 fw-bold">We Services provided best offer</h1>
+                    <p class="mb-0">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur adipisci facilis
+                        cupiditate recusandae aperiam temporibus corporis itaque quis facere, numquam, ad culpa deserunt
+                        sint dolorem autem obcaecati, ipsam mollitia hic.
+                    </p>
+                </div>
+                <section class="row">
+                    <div class="col-12 col-md-6 col-lg-4 py-2">
+                        <div class="card">
+                            <img src="images/illustraaion/service-1.jpg" class="card-img-top img-fluid" alt="...">
+                            <div class="card-body mt-4">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the
+                                    bulk of the card's content.</p>
+                                <ba href="#" class="btn custom-btn">Learn more</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4 py-2">
+                        <div class="card">
+                            <img src="images/illustraaion/service-2.jpg" class="card-img-top img-fluid" alt="...">
+                            <div class="card-body mt-4">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the
+                                    bulk of the card's content.</p>
+                                <a href="#" class="btn custom-btn">Learn more</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4 py-2">
+                        <div class="card">
+                            <img src="images/illustraaion/service-3.jpg" class="card-img-top img-fluid" alt="...">
+                            <div class="card-body mt-4">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the
+                                    bulk of the card's content.</p>
+                                <a href="#" class="btn custom-btn">Learn more</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4 py-2">
+                        <div class="card">
+                            <img src="images/illustraaion/service-4.jpg" class="card-img-top img-fluid" alt="...">
+                            <div class="card-body mt-4">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the
+                                    bulk of the card's content.</p>
+                                <a href="#" class="btn custom-btn">Learn more</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4 py-2">
+                        <div class="card">
+                            <img src="images/illustraaion/service-5.jpg" class="card-img-top img-fluid" alt="...">
+                            <div class="card-body mt-4">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the
+                                    bulk of the card's content.</p>
+                                <a href="#" class="btn custom-btn">Learn more</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4 py-2">
+                        <div class="card">
+                            <img src="images/illustraaion/service-6.jpg" class="card-img-top img-fluid" alt="...">
+                            <div class="card-body mt-4">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">
+                                    Some quick example text to build on the card title and make up thebulk of the card's
+                                    content.
+                                </p>
+                                <a href="#" class="btn custom-btn">Learn more</a>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </section>
+        </section>
+        <!-- end of offer -->
+
+        <!-- start of Features -->
+        <section class="container-fluid" id="feature">
+            <section class="container">
+                <div class="text-center mx-auto pb-5 wow fadeInUp px-md-5" data-wow-delay="0.2s">
+                    <h4 class="text-primary fs-1">Our Features</h4>
+                    <h1 class="display-5 mb-4 fw-bold">
+                        Connecting businesses, ideas, and people for greater impact.
+                    </h1>
+                    <p class="mb-0">
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur adipisci facilis
+                        cupiditate recusandae aperiam temporibus corporis itaque quis facere, numquam, ad culpa deserunt
+                        sint dolorem autem obcaecati, ipsam mollitia hic.
+                    </p>
+                </div>
+                <section class="row">
+                    <div class="col-12 col-md-6 col-lg">
+                        <div class="card">
+                            <div class="feature-icon p-3  text-center">
+                                <i class="fas fa-chart-line fa-4x text-primary bg-light p-3 rounded-2"></i>
+                            </div>
+                            <div class="card-body m-3 text-center">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up
+                                    thebulk of the card's content.</p>
+                                <a href="#" class="btn custom-btn">Go somewhere</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg">
+                        <div class="card">
+                            <div class="feature-icon p-3  text-center">
+                                <i class="fas fa-university fa-4x text-primary bg-light p-3 rounded-2"></i>
+                            </div>
+                            <div class="card-body m-3 text-center">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up
+                                    thebulk of the card's content.</p>
+                                <a href="#" class="btn custom-btn">Go somewhere</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg">
+                        <div class="card">
+                            <div class="feature-icon p-3  text-center">
+                                <i class="fas fa-file-alt fa-4x text-primary bg-light p-3 rounded-2"></i>
+                            </div>
+                            <div class="card-body m-3 text-center">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up
+                                    thebulk of the card's content.</p>
+                                <a href="#" class="btn custom-btn">Go somewhere</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg">
+                        <div class="card">
+                            <div class="feature-icon p-3  text-center">
+                                <i class="fas fa-hand-holding-usd fa-4x text-primary bg-light p-3 rounded-2"></i>
+                            </div>
+                            <div class="card-body m-3  text-center">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up
+                                    thebulk of the card's content.</p>
+                                <a href="#" class="btn custom-btn">Go somewhere</a>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </section>
+        </section>
+        <!-- end of feature -->
+
+        <!-- start of Faq -->
+        <section class="container-fluid" id="faq">
+            <section class="container">
+                <div class="text-center mx-auto pb-5 wow fadeInUp px-md-5" data-wow-delay="0.2s">
+                    <h4 class="text-primary fs-1">FAQs</h4>
+                    <h1 class="display-5 mb-4 fw-bold">
+                        Frequently Asked Questions
+                    </h1>
+                    <p class="mb-0">
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur adipisci facilis
+                        cupiditate recusandae aperiam temporibus corporis itaque quis facere, numquam, ad culpa deserunt
+                        sint dolorem autem obcaecati, ipsam mollitia hic.
+                    </p>
+                </div>
+                <section class="row">
+                    <div class="col-12 col-lg-6 mt-4">
+                        <div class="accordion accordion-flush rounded-2 p-1 p-md-5" id="accordionFlushExample">
+                            <div class="accordion-item">
+                                <h2 class="accordion-header">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#flush-collapseOne" aria-expanded="false"
+                                        aria-controls="flush-collapseOne">
+                                        What Does This Tool Do?
+                                    </button>
+                                </h2>
+                                <div id="flush-collapseOne" class="accordion-collapse collapse"
+                                    data-bs-parent="#accordionFlushExample">
+                                    <div class="accordion-body">Placeholder content for this accordion, which is
+                                        intended to demonstrate the <code>.accordion-flush</code> class. This is the
+                                        first item's accordion body.</div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#flush-collapseTwo" aria-expanded="false"
+                                        aria-controls="flush-collapseTwo">
+                                        What Are The Disadvantages Of Online Trading?
+                                    </button>
+                                </h2>
+                                <div id="flush-collapseTwo" class="accordion-collapse collapse"
+                                    data-bs-parent="#accordionFlushExample">
+                                    <div class="accordion-body">Placeholder content for this accordion, which is
+                                        intended to demonstrate the <code>.accordion-flush</code> class. This is the
+                                        second item's accordion body. Let's imagine this being filled with some actual
+                                        content.</div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#flush-collapseThree" aria-expanded="false"
+                                        aria-controls="flush-collapseThree">
+                                        Is Online Trading Safe?
+                                    </button>
+                                </h2>
+                                <div id="flush-collapseThree" class="accordion-collapse collapse"
+                                    data-bs-parent="#accordionFlushExample">
+                                    <div class="accordion-body">Placeholder content for this accordion, which is
+                                        intended to demonstrate the <code>.accordion-flush</code> class. This is the
+                                        third item's accordion body. Nothing more exciting happening here in terms of
+                                        content, but just filling up the space to make it look, at least at first
+                                        glance, a bit more representative of how this would look in a real-world
+                                        application.</div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#flush-collapseThree" aria-expanded="false"
+                                        aria-controls="flush-collapseThree">
+                                        Which App Is Best For Online Trading?
+                                    </button>
+                                </h2>
+                                <div id="flush-collapseThree" class="accordion-collapse collapse"
+                                    data-bs-parent="#accordionFlushExample">
+                                    <div class="accordion-body">Placeholder content for this accordion, which is
+                                        intended to demonstrate the <code>.accordion-flush</code> class. This is the
+                                        third item's accordion body. Nothing more exciting happening here in terms of
+                                        content, but just filling up the space to make it look, at least at first
+                                        glance, a bit more representative of how this would look in a real-world
+                                        application.</div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#flush-collapseThree" aria-expanded="false"
+                                        aria-controls="flush-collapseThree">
+                                        What Is Online Trading, And How Dose It Work?
+                                    </button>
+                                </h2>
+                                <div id="flush-collapseThree" class="accordion-collapse collapse"
+                                    data-bs-parent="#accordionFlushExample">
+                                    <div class="accordion-body">Placeholder content for this accordion, which is
+                                        intended to demonstrate the <code>.accordion-flush</code> class. This is the
+                                        third item's accordion body. Nothing more exciting happening here in terms of
+                                        content, but just filling up the space to make it look, at least at first
+                                        glance, a bit more representative of how this would look in a real-world
+                                        application.</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-6 mt-3 mt-md-4 ">
+                        <img src="images/illustraaion/about-2.png" alt="image not found"
+                            class="img-fluid custom-bg  rounded-2 ">
+                    </div>
+                </section>
+            </section>
+        </section>
+        <!-- end of faq -->
+
+        <!-- start of team -->
+        <!-- <section class="container-fluid" id="team">
+            <section class="container">
+                <div class="text-center mx-auto pb-5 wow fadeInUp px-md-5" data-wow-delay="0.2s">
+                    <h4 class="text-primary fs-1">Our Team</h4>
+                    <h1 class="display-5 mb-4 fw-bold">
+                        Meet Our Advisers
+                    </h1>
+                    <p class="mb-0">
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur adipisci facilis
+                        cupiditate recusandae aperiam temporibus corporis itaque quis facere, numquam, ad culpa deserunt
+                        sint dolorem autem obcaecati, ipsam mollitia hic.
+                    </p>
+                    <section class="row">
+                        <div class="col-12 col-md-6 col-lg-3">
+                            <div class="card">
+                                <div class="card-img">
+                                    <img src="images/illustraaion/team-1.jpg" class="img-fluid"
+                                    alt="image not found">
+                                </div>
+                                <div class="card-body">
+                                    <h5 class="card-title pt-3">David James</h5>
+                                    <p class="card-text">
+                                        Profession
+                                    </p>
+                                </div>
+                                <div class="d-flex justify-content-end ms-2" id="social-icon">
+                                    <a class="btn btn-md-square btn-light rounded-circle me-2" href="">
+                                        <i class="fab fa-facebook-f"></i>
+                                    </a>
+                                    <a class="btn btn-md-square btn-light rounded-circle mx-2" href="">
+                                        <i class="fab fa-twitter"></i>
+                                    </a>
+                                    <a class="btn btn-md-square btn-light rounded-circle mx-2" href="">
+                                        <i class="fab fa-instagram"></i>
+                                    </a>
+                                    <a class="btn btn-md-square btn-light rounded-circle ms-2" href="">
+                                        <i class="fab fa-linkedin-in"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </section>
+        </section> -->
+        <!-- end of team -->
+
+        <!-- start of footer -->
+        <section class="container-fluid" id="footer">
+            <section class="container">
+                <section class="row pt-5 pb-5" id="footer-item-border">
+                    <div class="col-12 col-md-6 col-lg-3 mt-2">
+                        <div class="footer-item">
+                            <h4 class="text-white">
+                                <i class="fas fa-search-dollar me-3"></i>
+                                Stocker
+                            </h4>
+                            <p class="mb-4 text-white">Dolor amet sit justo amet elitr clita ipsum elitr est.Lorem ipsum
+                                dolor sit amet, consectetur adipiscing...</p>
+                        </div>
+                        <div class="row">
+                            <div class="col-6">
+                                <a href="#" class="d-flex rounded align-items-center custom-bg text-decoration-none">
+                                    <i class="fas fa-apple-alt text-white ps-2"></i>
+                                    <div class="ms-3 lh-1">
+                                        <small class="text-white ">Download on the</small>
+                                        <h6 class="text-white">App Store</h6>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col-6">
+                                <a href="#" class="bg-dark d-flex rounded align-items-center text-decoration-none">
+                                    <i class="fas fa-play text-primary ps-2"></i>
+                                    <div class="ms-3 lh-1">
+                                        <small class="text-white">Get it on</small>
+                                        <h6 class="text-white">Google Play</h6>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-3 mt-2">
+                        <div class="footer-item d-flex flex-column gap-2 ">
+                            <h4 class="text-white mb-4 ">Quick Links</h4>
+                            <a href="#" class="custom-txt text-decoration-none"><i class="fas fa-angle-right me-2"></i>
+                                About Us</a>
+                            <a href="#" class="custom-txt text-decoration-none"><i class="fas fa-angle-right me-2"></i>
+                                Feature</a>
+                            <a href="#" class="custom-txt text-decoration-none"><i class="fas fa-angle-right me-2"></i>
+                                Attractions</a>
+                            <a href="#" class="custom-txt text-decoration-none"><i class="fas fa-angle-right me-2"></i>
+                                Tickets</a>
+                            <a href="#" class="custom-txt text-decoration-none"><i class="fas fa-angle-right me-2"></i>
+                                Blog</a>
+                            <a href="#" class="custom-txt text-decoration-none"><i class="fas fa-angle-right me-2"></i>
+                                Contact us</a>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-3 mt-2">
+                        <div class="footer-item d-flex flex-column gap-2 ">
+                            <h4 class="text-white mb-4 ">Support</h4>
+                            <a href="#" class="custom-txt text-decoration-none"><i class="fas fa-angle-right me-2"></i>
+                                Privacy Policy</a>
+                            <a href="#" class="custom-txt text-decoration-none"><i class="fas fa-angle-right me-2"></i>
+                                Terms & Conditions</a>
+                            <a href="#" class="custom-txt text-decoration-none"><i class="fas fa-angle-right me-2"></i>
+                                Disclaimer</a>
+                            <a href="#" class="custom-txt text-decoration-none"><i class="fas fa-angle-right me-2"></i>
+                                Support</a>
+                            <a href="#" class="custom-txt text-decoration-none"><i class="fas fa-angle-right me-2"></i>
+                                FAQ</a>
+                            <a href="#" class="custom-txt text-decoration-none"><i class="fas fa-angle-right me-2"></i>
+                                Help</a>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-3 mt-2">
+                        <div class="footer-item">
+                            <h4 class="text-white mb-4">Contact Info</h4>
+                            <div class="d-flex align-items-center">
+                                <i class="fas fa-map-marker-alt text-primary me-3"></i>
+                                <p class="text-white mb-0">pune chinchwadgaon</p>
+                            </div>
+                            <div class="d-flex align-items-center">
+                                <i class="fas fa-envelope text-primary me-3"></i>
+                                <p class="text-white mb-0">info@example.com</p>
+                            </div>
+                            <div class="d-flex align-items-center">
+                                <i class="fa fa-phone-alt text-primary me-3"></i>
+                                <p class="text-white mb-0">+913456 7890</p>
+                            </div>
+                            <div class="d-flex align-items-center mb-4">
+                                <i class="fab fa-firefox-browser text-primary me-3"></i>
+                                <p class="text-white mb-0">omkarraut@ex.com</p>
+                            </div>
+                            <div class="d-flex">
+                                <a class="btn custom-btn btn-sm-square rounded-circle me-3" href="#"><i
+                                        class="fab fa-facebook-f text-white"></i></a>
+                                <a class="btn custom-btn btn-sm-square rounded-circle me-3" href="#"><i
+                                        class="fab fa-twitter text-white"></i></a>
+                                <a class="btn custom-btn btn-sm-square rounded-circle me-3" href="#"><i
+                                        class="fab fa-instagram text-white"></i></a>
+                                <a class="btn custom-btn btn-sm-square rounded-circle me-0" href="#"><i
+                                        class="fab fa-linkedin-in text-white"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </section>
+        </section>
+        <!-- end of footer -->
+
+        <!-- start of copyright -->
+        <section class="container-fluid">
+            <section class="row bg-dark py-3">
+                <div class="col-12 custom-txt text-center">
+                    <h6>Copyright-2024</h6>
+                </div>
+                <div class="col-12  text-center custom-txt">
+                    <p>Designed by omkar raut</p>
+                </div>
+            </section>
+        </section>
+        <!-- end of copyright -->
+    </section>
+    <!-- main section -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous">
+        </script>
+</body>
+
+</html>

@@ -1,0 +1,360 @@
+/* *{
+    border: 1px solid red;
+} */
+
+
+.text-primary{
+    color: #00d084 !important;
+}
+.custom-btn {
+    background-color: #00d084; 
+    color: #ffffff;            
+    border-radius: 20px;
+}
+.custom-bg{
+    background-color: #00d084;
+}
+.custom-txt{
+    color: #787878 !important;
+}
+/* navbar */
+.nav-item a{
+    color: white;
+ }
+/* end navbar */
+/* --------------------------------------------------------------------------------------------------- */
+/* start of about herosection */
+#herosection{
+    background-image: url(../images/background/carousel-1.jpg);
+    background-size: 100% 100%;
+    height: 300px;
+    background-repeat: no-repeat;
+    position: relative;
+}
+#herosection::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.639); /* Black overlay with 50% opacity */
+    z-index: 1;
+}
+
+#herosection h4 {
+    position: relative;
+    z-index: 2;
+}
+#about-title{
+    font-size: 50px;
+    font-weight: bolder;
+}
+/* end of hero section */
+/* --------------------------------------------------------------------------------------------------- */
+
+/* start of breadcrum */
+.breadcrumb {
+    position: relative;
+    z-index: 2;
+}
+.breadcrumb-item a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+/* end of breadcrum */
+
+
+/* end of about herosection */
+/* --------------------------------------------------------------------------------------------------- */
+
+
+/* start of carousal */
+
+        
+        #hero {
+            position: relative;
+        }
+
+        .hero-overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.5); /* Adjust opacity as needed */
+            z-index: 1;
+        }
+        .set-img-text{
+            position: relative;
+        }
+        .carousel-caption {
+                width: 100%;
+                position: absolute;
+                z-index: 2;
+                color: rgb(0, 0, 0);
+                top: 70px;
+                left: 0;
+        }
+        .carousel-inner img {
+            height: 120vh;
+            object-fit: cover;
+        }
+
+        .carousel-caption h4{
+            /* font-size: 40px; */
+            font-weight: bolder;
+            text-transform: uppercase;
+        }
+        .carousel-caption h1{
+            
+        }
+       .carousel-control-prev , .carousel-control-next{
+        z-index: 3;
+       }
+       
+       
+        
+/* end of carousal */
+
+/* --------------------------------------------------------------------------------------------------- */
+
+
+/* start about */
+#about{
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+/* end about */
+/* --------------------------------------------------------------------------------------------------- */
+
+
+/* start of services */
+#services{
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+/* end of services */
+
+/* --------------------------------------------------------------------------------------------------- */
+
+
+/* start feture */
+#feature{
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+/* end of feture */
+
+/* --------------------------------------------------------------------------------------------------- */
+
+
+/* start of card */
+.card{
+    background-color: #f1ededed;
+}
+.feature-icon{
+   
+}
+/* end of card */
+
+
+/* start  of faq */
+    #faq{
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+    .accordion{
+        background-color: #f3eded;
+    }
+/* end of faq */
+
+/* --------------------------------------------------------------------------------------------------- */
+
+
+/* start of team */
+#team{
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+.card {
+    position: relative;
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: visible;
+    margin-top: 100px;
+}
+
+.card-img {
+    position: absolute;
+    top: -10; 
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80%; 
+    height: 100%;
+    z-index: 1;
+}
+
+.card-img img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    border: 2px dotted #00d084;
+    padding: 5px;
+    background-color: #fff; /* Optional: background color for better visibility */
+}
+.card-body{
+    margin-top: 100px;
+
+}
+#social-icon{
+    padding: 10px 18px;
+    justify-content: center;
+}
+
+
+/* end of team */
+
+/* --------------------------------------------------------------------------------------------------- */
+
+
+/* start of footer */
+#footer{
+    background-color: #17303b;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+#footer-item-border{
+    border-top: 1px solid rgba(255, 255, 255, 0.26);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.26);
+}
+/* end of fotero */
+
+/* --------------------------------------------------------------------------------------------------- */
+
+
+
+/* TAblet view */
+
+@media only screen and(min-width:768px){
+    
+/* start of carousal */       
+#hero {
+    position: relative;
+    overflow: hidden;
+}
+
+.hero-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Adjust opacity as needed */
+    z-index: 1;
+}
+
+.carousel-caption {
+        position: absolute;
+        z-index: 2;
+        color: rgb(0, 0, 0);
+}
+.carousel-inner img {
+    height: 120vh; /* Adjust the height as needed */
+    object-fit: cover;
+}
+/* end of carousal */
+
+#herosection{
+    height: 100vh;
+}
+
+}
+
+/* end of tablet view */
+
+/* --------------------------------------------------------------------------------------------------- */
+
+
+/* start of desktop view */
+
+@media only screen and(min-width:992px){
+    
+    /* start of carousal */
+         
+    #hero {
+        position: relative;
+        overflow: hidden;
+    }
+    
+    .hero-overlay {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.5); /* Adjust opacity as needed */
+        z-index: 1;
+    }
+    
+    .carousel-caption {
+            position: absolute;
+            z-index: 2;
+            color: rgb(0, 0, 0);
+    }
+    .carousel-inner img {
+        height: 120vh; /* Adjust the height as needed */
+        object-fit: cover;
+    }
+    .carousel-caption h4{
+        /* font-size: 40px; */
+        font-weight: bolder;
+        text-transform: uppercase;
+    }
+    .carousel-caption h1{
+        font-size: 15rem;
+    }
+        /* end of carousal */
+    #herosection{
+        height: 100vh;
+    }
+
+    /* iframe */
+   
+    /* end of iframe */
+}
+
+/* end of desktop view */
+
+/* --------------------------------------------------------------------------------------------------- */
+
+/* contact.html */
+
+/* start contact-details */
+#contact-detail{
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+/* end of contact details */
+
+/* --------------------------------------------------------------------------------------------------- */
+
+
+/* animation */
+.card{
+    overflow: hidden;
+}
+.card img {
+    transition: transform 0.3s ease-in-out;
+}
+.card:hover img {
+    transform: scale(1.1);
+}
+.card:hover{
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}   
+
