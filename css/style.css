@@ -122,7 +122,6 @@ body{
 
 .header-img {
     position: relative;
-   
 }   
 .header-img img {
     border: 1px solid var(--primary-background-color);
@@ -831,9 +830,8 @@ body{
        padding: 115px 30px;
 
     }
-
     .header-img img {
-        height: 60vh;
+        height: 100%;
     }
 
     .header-img {
