@@ -44,9 +44,13 @@ body{
 
 
 
-/* --------------------------------------------------------------------------------------------- */
+/* ------------------------------------------------start of css------------------------------------- */
+/* start of navbar */
 #social-link li {
     list-style: none;
+}
+.nav-link{
+    color: white !important;
 }
 .navbar-brand span{
     /* color: #a855f7; */
@@ -73,23 +77,17 @@ body{
 .rotate-slash {
     transform: rotate(90deg);
 }
-.navbar-toggler {
-  
-}
-#navbar-main {
-
-}
 .offcanvas-end{
     z-index: 1050;
 }
 #offcanvasNavbar{
-    background-color: #000;
+    background-color: #0000001d;
 }
 .offcanvas-body ul li a{
     color: white;
 }
 .navbar-toggler-icon{
-    background-color: lightgray;
+    background-color: rgb(177, 177, 177);
     border-radius: 5px;
 }
 .offcanvas-body{
@@ -110,12 +108,11 @@ body{
 .btn-square:hover {
    color: #fff;
 }
-
-
+/* end of navbar */
 /* start of herosection */
 #herosection {
-    padding-top: 20px;
-    
+    padding-top: 20px; 
+    margin-top: 50px;
 }
 
 .header-img {
@@ -591,6 +588,7 @@ body{
     /* start of herosection */
     #herosection {
         padding-top: 70px;
+        margin-top: 0px;
     }
 
     .header-info {
@@ -843,6 +841,7 @@ body{
     /* start of herosection */
     #herosection {
        padding: 115px 30px;
+
     }
 
     .header-img img {
