@@ -490,6 +490,7 @@ body{
 .contact-info p {
     margin: 5px 0 0;
     color: white;
+    font-size: 12px;
 }
 
 /*------------------------------------ End of Contact Section ------------------------------------*/
@@ -783,7 +784,7 @@ body{
 
     .contact-info p {
         margin: 5px 0 0;
-        font-size: 14px;
+        font-size: 10px;
     }
 
     /*---------------------------------- End of Contact Section -------------------------------*/
@@ -989,6 +990,10 @@ body{
     /*------------------------------- End of Project Section ------------------------------------*/
 
     /*--------------------------------- Start of Contact Section---------------------------------*/
+    .contact-info p {
+        margin: 5px 0 0;
+        font-size: 16px;
+    }
 
     .contact-icon {
         margin-bottom: 10px;
