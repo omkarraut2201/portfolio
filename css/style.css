@@ -108,7 +108,9 @@ body{
 .btn-square:hover {
    color: #fff;
 }
+
 /* end of navbar */
+
 /* start of herosection */
 #herosection {
     padding-top: 20px; 
@@ -118,14 +120,7 @@ body{
 .header-img {
     position: relative;
    
-}
-.img-frame{
-    
-}
-.header-img ::before{
-    
-}
-
+}   
 .header-img img {
     border: 1px solid var(--primary-background-color);
     height: 30vh;
