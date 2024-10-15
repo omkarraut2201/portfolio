@@ -74,6 +74,9 @@ body{
 .navbar-brand {
     animation: colorchange 3s linear 0s infinite alternate;
 }
+#offcanvasNavbarLabel{
+    animation: colorchange 3s linear 0s infinite alternate;
+}
 .rotate-slash {
     transform: rotate(90deg);
 }
@@ -159,7 +162,6 @@ body{
     color: rgb(198, 198, 198);
     padding: 12px 10px 5px 10px;
     border-radius: 100%;
-  
  }
  
  .social-links  a i {
@@ -186,21 +188,15 @@ body{
     font-size: var(--primary-title-size);
     font-weight: var(--primary-title-weight);
 }
-#about-title {
-    
-}
-
 #about-info {
     margin-top: 10px;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-
 #about-info p {
     font-size: 13px;
 }
-
 @keyframes slideInFromLeft {
     0% {
         transform: translateX(-100%);
@@ -212,11 +208,9 @@ body{
         opacity: 1;
     }
 }
-
 .slide-in-left {
     animation: slideInFromLeft 1s ease-out forwards;
 }
-
 /* end of about section */
 
 /* ...................................start of education section .................................*/
@@ -234,7 +228,6 @@ body{
     margin: 100px auto;
     position: relative;
 }
-
 .time-line::after {
     content: "";
     position: absolute;
