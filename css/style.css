@@ -494,6 +494,9 @@ body{
     font-size: 12px;
     opacity: 0.8;
 }
+.copyright h6 span{
+    color: var(--primary-color);
+}
 
 /*------------------------------------ End of copyright ------------------------------------*/
 
