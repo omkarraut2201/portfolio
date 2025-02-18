@@ -124,8 +124,9 @@ body{
     position: relative;
 }   
 .header-img img {
-    border: 1px solid #65105e ;
-    height: 30vh;
+    border: 1px solid #965d91 ;
+    /* height: 30vh; */
+    height: 230px;
     border-radius: 100%;
     box-shadow: 0px 0px 10px white;
 }
@@ -144,6 +145,7 @@ body{
 }
 
 .header-info h1 {
+    font-size: 30px;
     color: #d8c286;
 }
 .header-info p {
@@ -637,7 +639,7 @@ body{
     }
 
     .header-img img {
-        height: 35vh;
+        height: auto;
     }
 
     /* end of herosection */
@@ -869,7 +871,7 @@ body{
 
     }
     .header-img img {
-        height: 100%;
+        height: auto;
     }
 
     .header-img {
